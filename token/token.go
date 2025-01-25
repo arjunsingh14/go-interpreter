@@ -2,7 +2,7 @@ package token
 
 type TokenType string
 
-type Toke struct {
+type Token struct {
 	Type TokenType
 	Literal string
 }
@@ -21,7 +21,7 @@ const (
 
 	// Delimiters
 	COMMA = ","
-	SEMICOLOM = ";"
+	SEMICOLON = ";"
 
 	LPAREN = "("
 	RPAREN = ")"
